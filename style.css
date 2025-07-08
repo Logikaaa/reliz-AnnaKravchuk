@@ -51,5 +51,75 @@ header{
     align-items: center;
     margin: auto;
     height: 100px;
-    border-bottom: 2px solid #C51414;
+   
+}
+
+.line{
+     border-bottom: 2px solid #C51414;
+}
+article{
+    background-color: #ffffff;
+    width: 300px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+article img{
+    display: block;
+    margin: auto;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.disc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.price{
+    font-size: 32px;
+    font-weight: 700;
+    color: #C51414;
+    margin-top: 0;
+    margin-bottom: 29px;
+    text-align: center;
+}
+.btn{
+    width: 140px;
+    height: 45px;
+    background-color: #C51414;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+main{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    margin: auto;
+    margin-top: 47px;
+    margin-bottom: 55px;
 }
